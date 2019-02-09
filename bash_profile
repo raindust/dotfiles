@@ -3,6 +3,7 @@
 #fi
 
 . ~/.envrc
+
 # added by Anaconda3 5.3.0 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -20,4 +21,3 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
-export PATH="$HOME/.cargo/bin:$PATH"
