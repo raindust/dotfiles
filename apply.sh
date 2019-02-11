@@ -2,7 +2,6 @@ cp bash_profile ~/.bash_profile
 cp zshrc ~/.zshrc
 cp envrc ~/.envrc
 
-cp vimrc ~/.vimrc
 cp init.vim ~/.config/nvim/init.vim
 cp ideavimrc ~/.ideavimrc
 
