@@ -23,3 +23,10 @@ export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 
 # enable thefuck
 eval $(thefuck --alias)
+
+# set alias
+alias ls="exa"
+alias find="fd"
+alias grep="rg"
+alias vi="nvim"
+alias vim="nvim"
