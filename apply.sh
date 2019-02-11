@@ -3,6 +3,7 @@ cp zshrc ~/.zshrc
 cp envrc ~/.envrc
 
 cp vimrc ~/.vimrc
+cp init.vim ~/.config/nvim/init.vim
 cp ideavimrc ~/.ideavimrc
 
 cp tmux.conf ~/.tmux.conf
