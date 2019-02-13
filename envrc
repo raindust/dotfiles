@@ -21,12 +21,4 @@ export ANDROID_NDK=$ANDROID_HOME/ndk-bundle
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 
-# enable thefuck
-eval $(thefuck --alias)
-
-# set alias
-alias ls="exa"
-alias find="fd"
-alias grep="rg"
-alias vi="nvim"
-alias vim="nvim"
+. ~/.aliases
