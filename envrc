@@ -11,6 +11,7 @@ export PATH="$HOME/sourceCode/chromium/depot_tools":$PATH
 export PATH="$HOME/sourceCode/bazel/bazel/bazel-bin/src":$PATH
 export PATH="$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin":$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # Other enviroment
 export GOROOT=/usr/local/go
