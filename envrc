@@ -1,19 +1,4 @@
-# PATH
-export PATH=$GOROOT/bin:$PATH
-export PATH=$GOBIN:$PATH
-export PATH="/usr/local/opt/gettext/bin:$PATH"
-export PATH=$ANDROID_HOME/platform-tools:$PATH
-export PATH=$JAVA_HOME/bin/:$PATH
-export PATH="/Applications/Android Studio.app/Contents/gradle/gradle-4.4/bin":$PATH
-export PATH="/Applications/Julia-1.0.app/Contents/Resources/julia/bin":$PATH
-export PATH="$HOME/.pyenv/bin":$PATH
-export PATH="$HOME/sourceCode/chromium/depot_tools":$PATH
-export PATH="$HOME/sourceCode/bazel/bazel/bazel-bin/src":$PATH
-export PATH="$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin":$PATH
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-# Other enviroment
+# enviroment variables
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/dev
 export GOBIN=$GOPATH/bin
@@ -21,5 +6,21 @@ export ANDROID_HOME=$HOME/Library/Developer/Xamarin/android-sdk-macosx
 export ANDROID_NDK=$ANDROID_HOME/ndk-bundle
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+
+
+# PATH
+export PATH="$PATH":$GOROOT/bin
+export PATH="$PATH":$GOBIN
+export PATH="$PATH":$ANDROID_HOME/platform-tools
+export PATH="$PATH":$JAVA_HOME/bin/
+export PATH="$PATH":"$HOME/.cargo/bin"
+export PATH="$PATH":"/usr/local/opt/gettext/bin"
+export PATH="$PATH":"/Applications/Android Studio.app/Contents/gradle/gradle-4.4/bin"
+export PATH="$PATH":"/Applications/Julia-1.0.app/Contents/Resources/julia/bin"
+export PATH="$PATH":"$HOME/.pyenv/bin"
+export PATH="$PATH":"$HOME/sourceCode/chromium/depot_tools"
+export PATH="$PATH":"$HOME/sourceCode/bazel/bazel/bazel-bin/src"
+export PATH="$PATH":"$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 . ~/.aliases
