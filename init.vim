@@ -95,6 +95,7 @@ omap # <Plug>(easymotion-tn)<c-r>=expand("<cword>")<cr><cr>
 let NERDTreeShowHidden=1
 
 " airline
+let g:airline_theme='bubblegum'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 nmap <leader>1 :bfirst<CR>
