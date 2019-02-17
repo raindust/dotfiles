@@ -61,8 +61,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 
@@ -70,7 +68,7 @@ Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 "Plug 'w0rp/ale'
 "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 "Plug 'junegunn/fzf.vim'
-
+"
 call plug#end()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -93,17 +91,6 @@ omap # <Plug>(easymotion-tn)<c-r>=expand("<cword>")<cr><cr>
 " NERD Tree
 let NERDTreeShowHidden=1
 
-" airline
-let g:airline_theme='bubblegum'
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-nmap <leader>1 :bfirst<CR>
-nmap <leader>2 :bfirst<CR>:bn<CR>
-nmap <leader>3 :bfirst<CR>:2bn<CR>
-nmap <leader>4 :bfirst<CR>:3bn<CR>
-nmap <leader>5 :bfirst<CR>:4bn<CR>
-nmap <leader>6 :bfirst<CR>:5bn<CR>
-
 " coc
 " if hidden not set, TextEdit might fail.
 set hidden
@@ -119,12 +106,6 @@ set shortmess+=c
 
 " always show signcolumns
 set signcolumn=yes
-
-" if you want to disable auto detect, comment out those two lines
-"let g:airline#extensions#disable_rtp_load = 1
-"let g:airline_extensions = ['branch', 'hunks', 'coc']
-let g:airline_section_error = '%{airline#util#wrap(airline#extensions#coc#get_error(),0)}'
-let g:airline_section_warning = '%{airline#util#wrap(airline#extensions#coc#get_warning(),0)}'
 
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
