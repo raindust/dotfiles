@@ -531,8 +531,8 @@ key_bindings:
   - { key: N,        mods: Command, action: SpawnNewInstance             }
 
 # send to tmux for simulating iterm2 shortcuts
-  - { key: D,     mods: Command,       chars: "\x06\x76" }
-  - { key: D,     mods: Command|Shift, chars: "\x06\x73" }
+  - { key: D,     mods: Command,       chars: "\x06\x7c" }
+  - { key: D,     mods: Command|Shift, chars: "\x06\x2d" }
   - { key: W,     mods: Command,       chars: "\x06\x78" }
   - { key: H,     mods: Command,       chars: "\x06\x68" }
   - { key: J,     mods: Command,       chars: "\x06\x6a" }
