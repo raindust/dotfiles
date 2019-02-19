@@ -1,0 +1,32 @@
+{
+    "editor.fontSize": 18,
+    "search.location": "panel",
+    "git.enabled": false,
+    "cmake.configureOnOpen": false,
+    "julia.enableTelemetry": true,
+    "vim.searchHighlightColor": "rgba(150, 150, 255, 0.3)",
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before":["<C-n>"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        }
+    ],
+    "editor.formatOnSave": true
+}
