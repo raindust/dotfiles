@@ -5,7 +5,14 @@
     "cmake.configureOnOpen": false,
     "julia.enableTelemetry": true,
     "vim.searchHighlightColor": "rgba(150, 150, 255, 0.3)",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
+    "vim.leader": ",",
+    "vim.debug.loggingLevelForConsole": "debug",
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -19,12 +26,158 @@
     ],
     "vim.insertModeKeyBindingsNonRecursive": [
         {
-            "before":["<C-n>"],
-            "after":[],
+            "before": [
+                "<C-n>"
+            ],
             "commands": [
                 {
                     "command": ":nohl"
                 }
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.keepEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<space>"
+            ],
+            "when": "editorTextFocus && !editorReadonly",
+            "commands": [
+                "editor.action.trimTrailingWhitespace"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ],
+            "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ],
+            "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.closeAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.maximizeEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ],
+            "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+        },
+        {
+            "before": [
+                "<leader>",
+                "I"
+            ],
+            "commands": [
+                "dart.goToSuper"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.navigateBack"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "j",
+                "c"
+            ],
+            "command": "code-runner.run"
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.startFindReplaceAction"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "F"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
             ]
         }
     ],

@@ -31,7 +31,6 @@ nmap <Leader>u :action FindUsages<CR>
 nmap <Leader>i :action GotoImplementation<CR>
 nmap <Leader>I :action GotoSuperMethod<CR>
 nmap <Leader>p :action ImplementMethods<CR>
-nmap <Leader>p :action ImplementMethods<CR>
 nmap <Leader>e :action ActivateEventLogToolWindow<CR>
 nmap <Leader>bs :action ShowBookmarks<CR>
 nmap <Leader>bb :action ToggleBookmarkWithMnemonic<CR>
