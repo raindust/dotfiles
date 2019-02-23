@@ -34,7 +34,16 @@ nmap <Leader>p :action ImplementMethods<CR>
 nmap <Leader>e :action ActivateEventLogToolWindow<CR>
 nmap <Leader>bs :action ShowBookmarks<CR>
 nmap <Leader>bb :action ToggleBookmarkWithMnemonic<CR>
-nmap <Leader>g :action Github.Create.Gist<CR>
+"nmap <Leader>g :action Github.Create.Gist<CR>
+nmap gd :action GotoDeclaration<CR>
+nmap gi :action GotoImplementation<CR>
+nmap gs :action GotoSuperMethod<CR>
+nmap gy :action GotoTypeDeclaration<CR>
+nmap gr :action FindUsages<CR>
+nmap gu :action FindUsages<CR>
+nmap gp :action VimForward<CR>
+nmap gf :action VimForward<CR>
+nmap gb :action VimBack<CR>
 
 vmap <Leader>h :action Replace<CR>
 vmap <Leader>f :action Find<CR>
