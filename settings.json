@@ -149,7 +149,85 @@
                 "j",
                 "c"
             ],
-            "command": "code-runner.run"
+            "commands": [
+                "code-runner.run"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ],
+            "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ],
+            "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+        },
+        {
+            "before": [
+                "g",
+                "u"
+            ],
+            "commands": [
+                "references-view.find"
+            ],
+            "when": "editorHasReferenceProvider"
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "references-view.find"
+            ],
+            "when": "editorHasReferenceProvider"
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.navigateForward"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.navigateBack"
+            ]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
