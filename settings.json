@@ -205,7 +205,7 @@
         {
             "before": [
                 "g",
-                "f"
+                "l"
             ],
             "commands": [
                 "workbench.action.navigateForward"
@@ -214,16 +214,7 @@
         {
             "before": [
                 "g",
-                "p"
-            ],
-            "commands": [
-                "workbench.action.navigateForward"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "b"
+                "h"
             ],
             "commands": [
                 "workbench.action.navigateBack"

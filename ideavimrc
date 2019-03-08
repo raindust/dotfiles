@@ -11,7 +11,6 @@ map <leader>td <Plug>TaskList
 "
 " remove space at the end of line
 map <leader><space> :FixWhitespace<cr>
-nmap <Leader>r :action RenameElement<CR>
 nmap <Leader>f :action ReformatCode<CR>
 nmap <Leader>s :action SelectInProjectView<CR>
 nmap <Leader>a :action Annotate<CR>
@@ -21,12 +20,17 @@ nmap <Leader>o :action CloseAllEditorsButActive<CR>
 nmap <Leader>t :action ActivateTerminalToolWindow<CR>
 nmap <Leader>h :action HideSideWindows<CR>
 nmap <Leader>n :action NewElement<CR>
-nmap <Leader>jd :action Debug<CR>
-nmap <Leader>jc :action RunClass<CR>
-nmap <Leader>js :action Stop<CR>
+nmap <Leader>cd :action Debug<CR>
+nmap <Leader>cr :action Run<CR>
+nmap <Leader>cu :action Resume<CR>
+nmap <Leader>cc :action RunClass<CR>
+nmap <Leader>cs :action Stop<CR>
+nmap <Leader>cb :action ToggleLineBreakpoint<CR>
 nmap <Leader>c :action GotoClass<CR>
 nmap <Leader>z :action CloseActiveTab<CR>
-nmap <Leader>m :action ExtractMethod<CR>
+nmap <Leader>rr :action RenameElement<CR>
+nmap <Leader>rm :action ExtractMethod<CR>
+nmap <Leader>rs :action ChangeSignature<CR>
 nmap <Leader>u :action FindUsages<CR>
 nmap <Leader>i :action GotoImplementation<CR>
 nmap <Leader>I :action GotoSuperMethod<CR>
@@ -41,9 +45,8 @@ nmap gs :action GotoSuperMethod<CR>
 nmap gy :action GotoTypeDeclaration<CR>
 nmap gr :action FindUsages<CR>
 nmap gu :action FindUsages<CR>
-nmap gp :action VimForward<CR>
-nmap gf :action VimForward<CR>
-nmap gb :action VimBack<CR>
+nmap gl :action Forward<CR>
+nmap gh :action Back<CR>
 
 vmap <Leader>h :action Replace<CR>
 vmap <Leader>f :action Find<CR>

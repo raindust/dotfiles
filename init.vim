@@ -40,6 +40,8 @@ let mapleader=','
 map <leader><space> :StripWhitespace<cr>
 map <F3> :NERDTreeToggle<CR>
 map <F2> :TagbarToggle<CR>
+map gh c-]
+map gl c-t
 
 " inset mode
 imap jj <esc>
