@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # conda
 fpath+=~/.completions/conda-zsh-completion
 compinit conda
-source ~/.pyenv/completions/pyenv.zsh
+source /usr/local/Cellar/pyenv/1.2.9/completions/pyenv.zsh
 
 unset LESS
 
