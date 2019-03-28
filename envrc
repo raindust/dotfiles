@@ -28,4 +28,8 @@ export PATH="$PATH":"$HOME/sourceCode/bazel/bazel/bazel-bin/src"
 export PATH="$PATH":"$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
+# evals
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 . ~/.aliases
