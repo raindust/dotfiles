@@ -96,11 +96,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 . ~/.envrc
 
-# extra completions 
+# extra completions
 # conda
 fpath+=~/.completions/conda-zsh-completion
 compinit conda
 source /usr/local/Cellar/pyenv/1.2.9/completions/pyenv.zsh
+
+# rustup completions
+fpath+=~/.zfunc
 
 unset LESS
 

@@ -11,7 +11,7 @@ export ANDROID_HOME=$HOME/Library/Developer/Xamarin/android-sdk-macosx
 export ANDROID_NDK=$ANDROID_HOME/ndk-bundle
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
-
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 
 # PATH
 export PATH="$PATH":$GOROOT/bin
