@@ -29,7 +29,7 @@ export PATH="$PATH":"$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # evals
-eval "$(pyenv init -)"
+eval "$(pyenv init - --no-rehash)"
 eval "$(pyenv virtualenv-init -)"
 
 # node js related
