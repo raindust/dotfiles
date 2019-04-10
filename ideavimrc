@@ -21,13 +21,12 @@ nmap <Leader>t :action ActivateTerminalToolWindow<CR>
 nmap <Leader>h :action HideSideWindows<CR>
 nmap <Leader>n :action NewElement<CR>
 nmap <Leader>cd :action Debug<CR>
-nmap <Leader>cr :action Run<CR>
-nmap <Leader>cu :action Resume<CR>
-nmap <Leader>cc :action RunClass<CR>
-nmap <Leader>cs :action Stop<CR>
-nmap <Leader>cb :action ToggleLineBreakpoint<CR>
-nmap <Leader>c :action GotoClass<CR>
-nmap <Leader>z :action CloseActiveTab<CR>
+nmap <Leader>z :action Run<CR>
+nmap <Leader>z :action Resume<CR>
+nmap <Leader>x :action Debug<CR>
+nmap <Leader>c :action RunClass<CR>
+nmap <Leader>v :action Stop<CR>
+nmap <Leader>b :action ToggleLineBreakpoint<CR>
 nmap <Leader>rr :action RenameElement<CR>
 nmap <Leader>rm :action ExtractMethod<CR>
 nmap <Leader>rs :action ChangeSignature<CR>
@@ -36,8 +35,9 @@ nmap <Leader>i :action GotoImplementation<CR>
 nmap <Leader>I :action GotoSuperMethod<CR>
 nmap <Leader>p :action ImplementMethods<CR>
 nmap <Leader>e :action ActivateEventLogToolWindow<CR>
-nmap <Leader>bs :action ShowBookmarks<CR>
-nmap <Leader>bb :action ToggleBookmarkWithMnemonic<CR>
+"nmap <Leader>bs :action ShowBookmarks<CR>
+"nmap <Leader>z :action CloseActiveTab<CR>
+nmap <Leader>m :action ToggleBookmarkWithMnemonic<CR>
 "nmap <Leader>g :action Github.Create.Gist<CR>
 nmap gd :action GotoDeclaration<CR>
 nmap gi :action GotoImplementation<CR>
@@ -47,6 +47,7 @@ nmap gr :action FindUsages<CR>
 nmap gu :action FindUsages<CR>
 nmap gl :action Forward<CR>
 nmap gh :action Back<CR>
+nmap gc :action GotoClass<CR>
 
 vmap <Leader>h :action Replace<CR>
 vmap <Leader>f :action Find<CR>
