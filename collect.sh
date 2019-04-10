@@ -12,4 +12,6 @@ cp ~/Library/Application\ Support/Code/User/settings.json settings.json
 cp ~/.tmux.conf tmux.conf
 cp ~/.config/alacritty/alacritty.yml alacritty.yml
 
+cp ~/.config/zathura/zathurarc zathurarc
+
 cp ~/.gitconfig gitconfig
