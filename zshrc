@@ -13,6 +13,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# rustup completions
+fpath+=~/.zfunc
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -104,9 +107,6 @@ source $ZSH/oh-my-zsh.sh
 fpath+=~/.completions/conda-zsh-completion
 compinit conda
 source /usr/local/Cellar/pyenv/1.2.9/completions/pyenv.zsh
-
-# rustup completions
-fpath+=~/.zfunc
 
 unset LESS
 
