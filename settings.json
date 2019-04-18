@@ -248,6 +248,15 @@
             "commands": [
                 "workbench.action.findInFiles"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "commands": [
+                "extension.dash.specific",
+            ]
         }
     ],
     "editor.formatOnSave": true
