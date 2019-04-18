@@ -259,5 +259,6 @@
             ]
         }
     ],
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "newUntitledFile"
 }
