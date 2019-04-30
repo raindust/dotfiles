@@ -219,7 +219,17 @@
             "commands": [
                 "workbench.action.navigateBack"
             ]
+        },
+        {
+            "before": [
+                "g",
+                "w"
+            ],
+            "commands": [
+                "editor.action.toggleWordWrap"
+            ]
         }
+
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -255,7 +265,7 @@
                 "d"
             ],
             "commands": [
-                "extension.dash.specific",
+                "extension.dash.specific"
             ]
         }
     ],
