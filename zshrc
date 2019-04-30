@@ -115,5 +115,7 @@ prompt_context() {
   fi
 }
 
+[[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
+
 # end of zsh profile
 # zprof
