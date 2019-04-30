@@ -117,5 +117,9 @@ prompt_context() {
 
 [[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
 
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
+
 # end of zsh profile
 # zprof
