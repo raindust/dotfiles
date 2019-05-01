@@ -3,7 +3,6 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # enviroment variables
-export GOROOT=/usr/local/go
 export GOPATH=$HOME/dev
 export GOBIN=$GOPATH/bin
 export GOPROXY=https://athens.azurefd.net/

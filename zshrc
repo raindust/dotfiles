@@ -11,7 +11,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME=powerlevel10k/powerlevel10k
 
 # rustup completions
 fpath+=~/.zfunc
@@ -92,6 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# enable gvm
+[[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -106,7 +109,10 @@ source $ZSH/oh-my-zsh.sh
 # conda
 fpath+=~/.completions/conda-zsh-completion
 compinit conda
+
+# pyenv
 source /usr/local/Cellar/pyenv/1.2.9/completions/pyenv.zsh
+PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 unset LESS
 
@@ -115,7 +121,9 @@ prompt_context() {
   fi
 }
 
-[[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
+
+# powerlevel10k settings
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 
 zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
