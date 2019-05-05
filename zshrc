@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # enable gvm
-[[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -123,6 +123,8 @@ prompt_context() {
 
 
 # powerlevel10k settings
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 
 zstyle ':completion:*' accept-exact '*(N)'
