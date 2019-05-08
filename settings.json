@@ -228,8 +228,16 @@
             "commands": [
                 "editor.action.toggleWordWrap"
             ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer"
+            ]
         }
-
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
