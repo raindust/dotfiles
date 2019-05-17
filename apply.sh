@@ -8,6 +8,7 @@ cp init.vim ~/.config/nvim/init.vim
 cp ideavimrc ~/.ideavimrc
 cp keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 cp settings.json ~/Library/Application\ Support/Code/User/settings.json
+cp preferences.xiconfig ~/Library/Application\ Support/XiEditor/preferences.xiconfig
 
 cp tmux.conf ~/.tmux.conf
 cp alacritty.yml ~/.config/alacritty/alacritty.yml
