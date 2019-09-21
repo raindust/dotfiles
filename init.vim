@@ -55,6 +55,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
+Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree'
 Plug 'ntpeters/vim-better-whitespace'
