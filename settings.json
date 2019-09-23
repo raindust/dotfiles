@@ -117,10 +117,10 @@
         {
             "before": [
                 "<leader>",
-                "I"
+                "q"
             ],
             "commands": [
-                "dart.goToSuper"
+                "extension.dash.specific"
             ]
         },
         {
@@ -270,7 +270,7 @@
         {
             "before": [
                 "<leader>",
-                "d"
+                "q"
             ],
             "commands": [
                 "extension.dash.specific"
@@ -294,12 +294,12 @@
     "C_Cpp.errorSquiggles": "Disabled", // 因为有clang的lint，所以关掉
     "C_Cpp.autocomplete": "Disabled", // 因为有clang的补全，所以关掉
     "clang.cflags": [ // 控制c语言静态检测的参数
-        "--target=x86_64-apple-darwin18.5.0",  // 根据自己的语言版本来定
+        "--target=x86_64-apple-darwin18.5.0", // 根据自己的语言版本来定
         "-std=c11",
         "-Wall"
     ],
     "clang.cxxflags": [ // 控制c++静态检测时的参数
-        "--target=x86_64-apple-darwin18.5.0",  // 根据自己的语言版本来定
+        "--target=x86_64-apple-darwin18.5.0", // 根据自己的语言版本来定
         "-std=c++17",
         "-Wall"
     ],
