@@ -1,3 +1,5 @@
+#!/usr/local/bin/fish
+
 cp ~/.bash_profile bash_profile
 cp ~/.zshrc zshrc
 cp ~/.envrc envrc
