@@ -10,6 +10,7 @@ set -xg ANDROID_HOME $HOME/Library/Developer/Xamarin/android-sdk-macosx
 set -xg ANDROID_NDK $ANDROID_HOME/ndk-bundle
 set -xg JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 set -xg CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+set -xg CLASSPATH $CLASSPATH /usr/local/Cellar/antlr/4.7.2/antlr-4.7.2-complete.jar
 set -xg RUSTUP_HOME $HOME/.rustup
 set -xg RUST_SRC_PATH $HOME/rust/rust
 set -xg RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
