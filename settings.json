@@ -1,9 +1,8 @@
 {
-    "editor.fontSize": 18,
+    "editor.fontSize": 14,
     "search.location": "panel",
     "git.enabled": false,
     "cmake.configureOnOpen": false,
-    "julia.enableTelemetry": true,
     "vim.searchHighlightColor": "rgba(150, 150, 255, 0.3)",
     "vim.easymotion": true,
     "vim.sneak": true,
@@ -304,5 +303,16 @@
         "-Wall"
     ],
     "clang.completion.enable": true, // 效果效果比cpptools要好
-    "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace"
+    "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "sync.gist": "1312b74ca58cb4649944a68f9ba237c7",
+    "terminal.integrated.fontSize": 18,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "workbench.activityBar.visible": true
 }
