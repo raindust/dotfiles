@@ -5,7 +5,7 @@ set -xg LANG en_US.UTF-8
 # enviroment variables
 set -xg GOPATH $HOME/dev
 set -xg GOBIN $GOPATH/bin
-set -xg GOPROXY https://athens.azurefd.net/
+set -xg GOPROXY https://goproxy.cn
 set -xg ANDROID_HOME $HOME/Library/Developer/Xamarin/android-sdk-macosx
 set -xg ANDROID_NDK $ANDROID_HOME/ndk-bundle
 set -xg JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
@@ -35,3 +35,6 @@ set -xg PATH $PATH $HOME/sourceCode/bazel/bazel/bazel-bin/src
 set -xg PATH $PATH $HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin
 set -xg PATH $PATH $HOME/.pub-cache/bin
 set -xg PATH $PATH $HOME/sourceCode/nginx/bin/sbin
+
+# Other
+set -xg DISABLE_AUTO_TITLE "true"
