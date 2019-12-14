@@ -79,15 +79,6 @@ scrolling:
   # scrollback is enabled (history > 0).
   multiplier: 3
 
-  # Faux Scrolling
-  #
-  # The `faux_multiplier` setting controls the number of lines the terminal
-  # should scroll when the alternate screen buffer is active. This is used
-  # to allow mouse scrolling for applications like `man`.
-  #
-  # Specifying `0` will disable faux scrolling.
-  faux_multiplier: 3
-
   # Scroll to the bottom when new text is written to the terminal.
   auto_scroll: true
 
@@ -104,19 +95,19 @@ tabspaces: 4
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Cascadia Code
+    family: Cascadia Mono PL
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-    family: Cascadia Code
+    family: Cascadia Mono PL
     # Style can be specified to pick a specific face.
     # style: Bold
 
   # The italic font face
   italic:
-    family: Cascadia Code
+    family: Cascadia Mono PL
     # Style can be specified to pick a specific face.
     # style: Italic
 
