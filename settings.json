@@ -1,5 +1,4 @@
 {
-    "editor.fontSize": 14,
     "search.location": "panel",
     "git.enabled": false,
     "cmake.configureOnOpen": false,
@@ -307,12 +306,20 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "sync.gist": "1312b74ca58cb4649944a68f9ba237c7",
-    "terminal.integrated.fontSize": 18,
     "vim.enableNeovim": true,
     "vim.neovimPath": "/usr/local/bin/nvim",
     "window.zoomLevel": 2,
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": true,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.draft-path": "/Users/yanmingzhi/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+        "vs-kubernetes.helm-path": "/Users/yanmingzhi/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.minikube-path": "/Users/yanmingzhi/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "go.useLanguageServer": true,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "workbench.editor.showTabs": false
 }
