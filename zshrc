@@ -125,9 +125,6 @@ function nvm() {
 #    _install_nvm node "$@"
 #}
 
-# enable thefuck
-eval $(thefuck --alias)
-
 . ~/.envrc
 
 # extra completions
