@@ -6,8 +6,8 @@ set -xg LANG en_US.UTF-8
 set -xg GOPATH $HOME/dev
 set -xg GOBIN $GOPATH/bin
 set -xg GOPROXY https://goproxy.cn
-set -xg ANDROID_HOME $HOME/Library/Developer/Xamarin/android-sdk-macosx
-set -xg ANDROID_NDK $ANDROID_HOME/ndk-bundle
+set -xg ANDROID_HOME $HOME/Library/Android/sdk
+set -xg ANDROID_NDK $ANDROID_HOME/ndk/20.1.5948944
 set -xg JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
 set -xg CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 set -xg CLASSPATH $CLASSPATH /usr/local/Cellar/antlr/4.7.2/antlr-4.7.2-complete.jar
