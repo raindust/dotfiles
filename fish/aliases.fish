@@ -13,3 +13,8 @@ function ..    ; cd .. ; end
 function ...   ; cd ../.. ; end
 function ....  ; cd ../../.. ; end
 function ..... ; cd ../../../.. ; end
+
+# Docker
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
+alias dim='docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}"'
+alias dims='docker images --format "table {{.Repository}}\t{{.Size}}"'

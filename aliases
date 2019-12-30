@@ -7,3 +7,14 @@ alias vim="nvim"
 alias man2="tldr"
 alias icloud="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias hh=hstr
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Docker
+alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
+alias dim='docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}"'
+alias dims='docker images --format "table {{.Repository}}\t{{.Size}}"'
