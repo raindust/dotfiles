@@ -18,3 +18,8 @@ alias .....='cd ../../../..'
 alias dps='docker ps --format "table {{.Names}}\t{{.Status}}"'
 alias dim='docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}"'
 alias dims='docker images --format "table {{.Repository}}\t{{.Size}}"'
+
+# aliase commands to enable easy setting of JDK version
+alias setJDK8='export JAVA_HOME=`/usr/libexec/java_home -v 1.8`'
+alias setJDK11='export JAVA_HOME=`/usr/libexec/java_home -v 11`'
+alias setJDK13='export JAVA_HOME=`/usr/libexec/java_home -v 13`'
