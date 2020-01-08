@@ -39,6 +39,7 @@ map <c-l> :action StepOut<CR>
 map <c-;> :action Stop<CR>
 map <c-r> :action Run<CR>
 map <c-d> :action Debug<CR>
+map <Leader>k :action Resume<CR>
 "nmap <Leader>bs :action ShowBookmarks<CR>
 "nmap <Leader>z :action CloseActiveTab<CR>
 nmap <Leader>m :action ToggleBookmarkWithMnemonic<CR>
