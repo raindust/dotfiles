@@ -321,5 +321,14 @@
     "go.useLanguageServer": true,
     "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
-    "workbench.editor.showTabs": false
+    "workbench.editor.showTabs": false,
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/yanmingzhi/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
+    "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home",
+    "workbench.colorTheme": "Material Theme Palenight",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
