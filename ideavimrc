@@ -36,8 +36,8 @@ map <c-e> :action GotoNextError<CR>
 map <c-j> :action StepInto<CR>
 map <c-k> :action StepOver<CR>
 map <c-l> :action StepOut<CR>
-map <c-;> :action Stop<CR>
-map <c-r> :action Run<CR>
+map <c-s> :action Stop<CR>
+map <c-c> :action Run<CR>
 map <c-d> :action Debug<CR>
 map <Leader>k :action Resume<CR>
 "nmap <Leader>bs :action ShowBookmarks<CR>
@@ -58,6 +58,8 @@ vmap <Leader>h :action Replace<CR>
 vmap <Leader>f :action Find<CR>
 
 set surround
+set easymotion
+set commentary
 
 " don't create .*.swp file 2011-11-04
 "setlocal noswapfile
