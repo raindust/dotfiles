@@ -118,7 +118,8 @@
                 "q"
             ],
             "commands": [
-                "extension.dash.specific"
+                "workbench.action.togglePanel",
+                "workbench.action.toggleSidebarVisibility"
             ]
         },
         {
@@ -271,7 +272,8 @@
                 "q"
             ],
             "commands": [
-                "extension.dash.specific"
+                "workbench.action.togglePanel",
+                "workbench.action.toggleSidebarVisibility"
             ]
         }
     ],
