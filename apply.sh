@@ -5,8 +5,8 @@ cp zshrc ~/.zshrc
 cp envrc ~/.envrc
 cp aliases ~/.aliases
 cp oh-my-zsh.sh ~/.oh-my-zsh/oh-my-zsh.sh
-cp init.fish $OMF_CONFIG/init.fish
-cp -r fish $OMF_CONFIG/
+cp config.fish ~/.config/fish/config.fish
+cp -r fish ~/.config/fish/
 
 cp init.vim ~/.config/nvim/init.vim
 cp ideavimrc ~/.ideavimrc
