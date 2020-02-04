@@ -7,6 +7,9 @@ alias vim="nvim"
 alias man2="tldr"
 alias icloud="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias hh=hstr
+alias du=dust
+alias tree="exa --tree"
+alias cat=bat
 
 # Navigation
 function ..    ; cd .. ; end
