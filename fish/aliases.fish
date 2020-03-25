@@ -9,7 +9,6 @@ alias icloud="cd $HOME/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias hh=hstr
 alias du=dust
 alias tree="exa --tree"
-alias cat=bat
 
 # Navigation
 function ..    ; cd .. ; end
@@ -26,3 +25,6 @@ alias dims='docker images --format "table {{.Repository}}\t{{.Size}}"'
 alias setJDK8='set -xg JAVA_HOME (/usr/libexec/java_home -v 1.8)'
 alias setJDK11='set -xg JAVA_HOME (/usr/libexec/java_home -v 11)'
 alias setJDK13='set -xg JAVA_HOME (/usr/libexec/java_home -v 13)'
+
+# tools
+alias setTar='set -xg PATH /usr/local/opt/gnu-tar/libexec/gnubin $PATH'
