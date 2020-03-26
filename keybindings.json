@@ -36,4 +36,16 @@
         "key": "cmd+9",
         "command": "workbench.action.openEditorAtIndex9"
     },
+    {
+        "key": "cmd+k l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "cmd+k h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "cmd+k v",
+        "command": "workbench.action.splitEditorRight"
+    },
 ]
