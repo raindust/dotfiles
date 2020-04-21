@@ -20,3 +20,6 @@ cp ~/.config/alacritty/alacritty.yml alacritty.yml
 cp ~/.config/zathura/zathurarc zathurarc
 
 cp ~/.gitconfig gitconfig
+
+// rust
+cp ~/.cargo/config rust_config
