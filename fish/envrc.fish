@@ -35,6 +35,7 @@ set -xg PATH $PATH $HOME/sourceCode/bazel/bazel/bazel-bin/src
 set -xg PATH $PATH $HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin
 set -xg PATH $PATH $HOME/.pub-cache/bin
 set -xg PATH $PATH $HOME/sourceCode/nginx/bin/sbin
+set -xg PATH $PATH "/usr/local/opt/postgresql@10/bin"
 
 # Other
 set -xg DISABLE_AUTO_TITLE "true"
