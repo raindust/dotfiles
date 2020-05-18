@@ -21,5 +21,5 @@ cp ~/.config/zathura/zathurarc zathurarc
 
 cp ~/.gitconfig gitconfig
 
-// rust
+# rust
 cp ~/.cargo/config rust_config
