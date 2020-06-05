@@ -1,5 +1,4 @@
 {
-    "search.location": "panel",
     "git.enabled": false,
     "cmake.configureOnOpen": false,
     "vim.searchHighlightColor": "rgba(150, 150, 255, 0.3)",
@@ -332,5 +331,7 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "solidity.compileUsingLocalVersion": "/Users/yanmingzhi/.vscode/soljson-v0.4.24+commit.e67f0147.js",
+    "rust-client.autoStartRls": false
 }
