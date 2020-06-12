@@ -27,7 +27,7 @@ syntax on
 set guicursor=n-v-c-sm:block,i-ci-ve:ver25-Cursor,r-cr-o:hor20
 "set colorcolumn=80
 
-
+set rtp+=~/sourceCode/tabnine/tabnine-vim
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
