@@ -161,3 +161,5 @@ zstyle ':completion:*' cache-path ~/.zsh/cache
 # zprof
 
 [[ -s "/Users/yanmingzhi/.gvm/scripts/gvm" ]] && source "/Users/yanmingzhi/.gvm/scripts/gvm"
+
+eval "$(starship init zsh)"
