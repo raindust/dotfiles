@@ -7,7 +7,7 @@ set -xg GOPATH $HOME/dev
 set -xg GOBIN $GOPATH/bin
 set -xg GOPROXY https://goproxy.cn
 set -xg ANDROID_HOME $HOME/Library/Android/sdk
-set -xg ANDROID_NDK $ANDROID_HOME/ndk/20.1.5948944
+set -xg ANDROID_NDK $ANDROID_HOME/ndk/21.3.6528147
 set -xg JAVA_HOME (/usr/libexec/java_home)
 set -xg CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 set -xg CLASSPATH $CLASSPATH /usr/local/Cellar/antlr/4.7.2/antlr-4.7.2-complete.jar
