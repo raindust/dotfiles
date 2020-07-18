@@ -22,6 +22,7 @@ alias dim='docker images --format "table {{.ID}}\t{{.Repository}}\t{{.Tag}}"'
 alias dims='docker images --format "table {{.Repository}}\t{{.Size}}"'
 
 # java
+alias setJDK7='set -xg JAVA_HOME (/usr/libexec/java_home -v 1.7)'
 alias setJDK8='set -xg JAVA_HOME (/usr/libexec/java_home -v 1.8)'
 alias setJDK11='set -xg JAVA_HOME (/usr/libexec/java_home -v 11)'
 alias setJDK13='set -xg JAVA_HOME (/usr/libexec/java_home -v 13)'
