@@ -5,6 +5,8 @@ alias vim="nvim"
 alias man2="tldr"
 alias hh=hstr
 alias du=dust
+alias ls="exa"
+alias tree="exa --tree"
 
 # Navigation
 function ..    ; cd .. ; end
