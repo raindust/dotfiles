@@ -1,6 +1,6 @@
-#!/usr/local/bin/fish
+#!/bin/sh
 
-cp ~/.bash_profile bash_profile
+cp ~/.bashrc bash_profile
 cp ~/.envrc envrc
 cp ~/.aliases aliases
 cp ~/.config/fish/config.fish config.fish
