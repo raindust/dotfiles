@@ -13,6 +13,7 @@ set -xg KUBE_EDITOR "vim"
 
 # PATH
 set -xg PATH $PATH /usr/local/go/bin
+set -xg PATH $PATH /opt/cmake-3.14.5-Linux-x86_64/bin/
 set -xg PATH $PATH $GOBIN
 set -xg PATH $PATH $HOME/.cargo/bin
 

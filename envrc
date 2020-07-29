@@ -14,6 +14,7 @@ export KUBE_EDITOR="vim"
 
 # PATH
 export PATH="$PATH":/usr/local/go/bin
+export PATH="$PATH":/opt/cmake-3.14.5-Linux-x86_64/bin/
 export PATH="$PATH":$GOBIN
 export PATH="$PATH":"$HOME/.cargo/bin"
 export PATH="$PATH":"$HOME/sourceCode/nginx/bin/sbin"
