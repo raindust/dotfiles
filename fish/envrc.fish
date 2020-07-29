@@ -3,7 +3,7 @@ set -xg LC_ALL en_US.UTF-8
 set -xg LANG en_US.UTF-8
 
 # enviroment variables
-set -xg GOPATH $HOME/dev
+set -xg GOPATH /data/dev
 set -xg GOBIN $GOPATH/bin
 set -xg GOPROXY https://goproxy.cn
 set -xg RUSTUP_HOME $HOME/.rustup
@@ -12,7 +12,7 @@ set -xg RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
 set -xg KUBE_EDITOR "vim"
 
 # PATH
-set -xg PATH $PATH $GOROOT/bin
+set -xg PATH $PATH /usr/local/go/bin
 set -xg PATH $PATH $GOBIN
 set -xg PATH $PATH $HOME/.cargo/bin
 
