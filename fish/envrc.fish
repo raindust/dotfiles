@@ -5,7 +5,7 @@ set -xg LANG en_US.UTF-8
 # enviroment variables
 set -xg GOPATH $HOME/dev
 set -xg GOBIN $GOPATH/bin
-set -xg GOPROXY https://goproxy.cn
+set -xg GOPROXY https://goproxy.io
 set -xg ANDROID_HOME $HOME/Library/Android/sdk
 set -xg ANDROID_NDK $ANDROID_HOME/ndk/21.3.6528147
 set -xg JAVA_HOME (/usr/libexec/java_home)
