@@ -21,7 +21,8 @@ nmap <Leader>t :action ActivateTerminalToolWindow<CR>
 nmap <Leader>n :action NewElement<CR>
 nmap <Leader>b :action ToggleLineBreakpoint<CR>
 nmap <Leader>rr :action RenameElement<CR>
-nmap <Leader>rm :action ExtractMethod<CR>
+vmap <Leader>rr :action RenameElement<CR>
+vmap <Leader>rm :action ExtractMethod<CR>
 nmap <Leader>rs :action ChangeSignature<CR>
 nmap <Leader>u :action FindUsages<CR>
 nmap <Leader>i :action GotoImplementation<CR>
