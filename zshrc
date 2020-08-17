@@ -133,7 +133,7 @@ fpath+=~/.completions/conda-zsh-completion
 compinit conda
 
 # pyenv
-source /usr/local/Cellar/pyenv/1.2.18/completions/pyenv.zsh
+source /usr/local/Cellar/pyenv/1.2.20/completions/pyenv.zsh
 PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
 unset LESS
