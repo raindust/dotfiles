@@ -125,7 +125,9 @@ function nvm() {
 #    _install_nvm node "$@"
 #}
 
-. ~/.envrc
+if [[ -z $TMUX ]]; then
+	. ~/.envrc
+fi
 
 # extra completions
 # conda
