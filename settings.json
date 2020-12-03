@@ -1,5 +1,5 @@
 {
-    "git.enabled": false,
+    "git.enabled": true,
     "cmake.configureOnOpen": false,
     "vim.searchHighlightColor": "rgba(150, 150, 255, 0.3)",
     "vim.easymotion": true,
@@ -320,8 +320,8 @@
         "vs-kubernetes.minikube-path": "/Users/yanmingzhi/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
     "go.useLanguageServer": true,
-    "editor.fontSize": 13,
-    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
     "workbench.editor.showTabs": false,
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/yanmingzhi/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
     "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home",
