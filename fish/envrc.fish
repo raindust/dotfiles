@@ -13,6 +13,7 @@ set -xg CLASSPATH $JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 set -xg CLASSPATH $CLASSPATH /usr/local/Cellar/antlr/4.7.2/antlr-4.7.2-complete.jar
 set -xg RUSTUP_HOME $HOME/.rustup
 set -xg RUST_SRC_PATH $HOME/rust/rust
+set -xg RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
 set -xg LDFLAGS "-L/usr/local/opt/tcl-tk/lib"
 set -xg CPPFLAGS "-I/usr/local/opt/tcl-tk/include"
 set -xg KUBE_EDITOR "vim"

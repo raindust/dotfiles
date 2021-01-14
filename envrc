@@ -12,6 +12,7 @@ export JAVA_HOME=`/usr/libexec/java_home`
 export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
 export RUSTUP_HOME=$HOME/.rustup
 export RUST_SRC_PATH=$HOME/rust/rust
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
 export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
 export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
 export KUBE_EDITOR="vim"
