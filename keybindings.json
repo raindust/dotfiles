@@ -48,4 +48,14 @@
         "key": "cmd+k v",
         "command": "workbench.action.splitEditorRight"
     },
+    {
+        "key": "ctrl+j",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
 ]
