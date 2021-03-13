@@ -31,3 +31,7 @@
 
 [interactive]
     diffFilter = delta --color-only
+[http]
+	proxy = http://localhost:3213
+[https]
+	proxy = http://localhost:3213
