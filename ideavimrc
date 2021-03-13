@@ -1,6 +1,9 @@
 
 let mapleader=','
 
+" copy to clipboard
+set clipboard+=unnamed
+
 "
 " TaskList.vim
 "
@@ -54,6 +57,9 @@ nmap gu :action FindUsages<CR>
 nmap gl :action Forward<CR>
 nmap gh :action Back<CR>
 nmap gc :action GotoClass<CR>
+
+nmap H ^
+nmap L $
 
 vmap <Leader>h :action Replace<CR>
 vmap <Leader>f :action Find<CR>
