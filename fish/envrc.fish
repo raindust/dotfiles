@@ -17,6 +17,7 @@ set -xg RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
 set -xg LDFLAGS "-L/usr/local/opt/tcl-tk/lib"
 set -xg CPPFLAGS "-I/usr/local/opt/tcl-tk/include"
 set -xg KUBE_EDITOR "vim"
+set -xg ALL_PROXY http://localhost:3213
 
 # PATH
 set -xg PATH $PATH $GOROOT/bin
