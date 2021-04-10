@@ -335,4 +335,9 @@
     "rust-client.autoStartRls": false,
     "tabnine.experimentalAutoImports": true,
     "rust.rustfmt_path": "/Users/yanmingzhi/.cargo/bin/rustfmt",
+    "go.toolsManagement.autoUpdate": true,
+    "git.confirmSync": false,
+    "git.ignoredRepositories": [
+        "~/github/tearust/.cargo"
+    ],
 }
