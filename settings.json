@@ -276,7 +276,6 @@
             ]
         }
     ],
-    "editor.formatOnSave": true,
     "workbench.startupEditor": "newUntitledFile",
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4}",
     "editor.snippetSuggestions": "top", // snippets代码优先显示补全
@@ -325,7 +324,6 @@
     "workbench.editor.showTabs": false,
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/yanmingzhi/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
     "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home",
-    "workbench.colorTheme": "Material Theme Palenight",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -340,4 +338,12 @@
     "git.ignoredRepositories": [
         "~/github/tearust/.cargo"
     ],
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Rusty One Dark",
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
 }

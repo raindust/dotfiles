@@ -68,4 +68,29 @@
         "command": "cursorDown",
         "when": "textInputFocus"
     },
+    {
+        "key": "ctrl+k",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
 ]
