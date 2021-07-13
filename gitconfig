@@ -35,3 +35,5 @@
 	proxy = http://localhost:3213
 [https]
 	proxy = http://localhost:3213
+[pull]
+	rebase = true
