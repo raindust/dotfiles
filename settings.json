@@ -302,7 +302,7 @@
         "-Wall"
     ],
     "clang.completion.enable": true, // 效果效果比cpptools要好
-    "editor.fontFamily": "Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "JetBrains Mono, Cascadia Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "sync.gist": "1312b74ca58cb4649944a68f9ba237c7",
@@ -319,7 +319,7 @@
         "vs-kubernetes.minikube-path": "/Users/yanmingzhi/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
     "go.useLanguageServer": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "terminal.integrated.fontSize": 15,
     "workbench.editor.showTabs": false,
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/yanmingzhi/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
@@ -339,7 +339,7 @@
         "~/github/tearust/.cargo"
     ],
     "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.colorTheme": "Rusty One Dark",
+    "workbench.colorTheme": "Visual Studio Dark",
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
     "editor.lineNumbers": "on",
