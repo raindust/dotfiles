@@ -65,6 +65,7 @@ Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+Plug 'wakatime/vim-wakatime'
 
 " candidates
 "Plug 'w0rp/ale'

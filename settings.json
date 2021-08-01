@@ -320,7 +320,7 @@
     },
     "go.useLanguageServer": true,
     "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontSize": 14,
     "workbench.editor.showTabs": false,
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/yanmingzhi/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
     "java.home": "/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home",
@@ -339,7 +339,6 @@
         "~/github/tearust/.cargo"
     ],
     "workbench.iconTheme": "Monokai Pro Icons",
-    "workbench.colorTheme": "Visual Studio Dark",
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
     "editor.lineNumbers": "on",
