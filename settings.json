@@ -345,4 +345,8 @@
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "off",
     "editor.formatOnSave": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.tabSize": 2,
+    "rust-analyzer.rustfmt.enableRangeFormatting": true,
 }
