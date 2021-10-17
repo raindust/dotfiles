@@ -92,10 +92,10 @@ sudo apt install -y fish
 sudo apt install -y tmux
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-tmux source ~/.tmux.conf
-
 git clone -b ubuntu_lint https://github.com/raindust/dotfiles ~/dotfiles
 ~/dotfiles/apply.sh
+
+tmux source ~/.tmux.conf
 
 completed "install dependencies completed"
 
