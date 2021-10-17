@@ -11,6 +11,3 @@ cp init.vim ~/.config/nvim/init.vim
 cp tmux.conf ~/.tmux.conf
 
 cp gitconfig ~/.gitconfig
-
-# rust
-cp rust_config ~/.cargo/config
