@@ -31,5 +31,3 @@ export PATH="$PATH":"$HOME/sourceCode/fuchsia/fuchsia/.jiri_root/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$PATH":"$HOME/sourceCode/nginx/bin/sbin"
 export PATH="$PATH":"/usr/local/opt/postgresql@10/bin"
-
-. ~/.aliases
