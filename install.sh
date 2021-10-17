@@ -74,10 +74,6 @@ install_docker() {
 	sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
 	sudo apt-get install -y docker-compose
-
-	sudo groupadd docker
-	sudo usermod -aG docker $USER
-	newgrp docker
 }
 
 install_dependencies() {
@@ -102,3 +98,7 @@ git clone -b ubuntu_lint https://github.com/raindust/dotfiles ~/dotfiles
 ~/dotfiles/apply.sh
 
 completed "install dependencies completed"
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
