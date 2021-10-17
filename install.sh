@@ -93,7 +93,8 @@ sudo apt install -y tmux
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone -b ubuntu_lint https://github.com/raindust/dotfiles ~/dotfiles
-~/dotfiles/apply.sh
+cd ~/dotfiles
+./apply.sh
 
 tmux source ~/.tmux.conf
 
