@@ -80,6 +80,12 @@ install_docker() {
 	newgrp docker
 }
 
+install_dependencies() {
+	install_docker
+
+	sudo apt-get install -y git
+}
+
 info "begin to install dependencies..."
 install_dependencies
 completed "install dependencies completed"
