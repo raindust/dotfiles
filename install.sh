@@ -91,8 +91,15 @@ mkdir -p ~/.config/fish
 sudo apt install -y fish
 sudo apt install -y tmux
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-git clone -b ubuntu_lint https://github.com/raindust/dotfiles ~/dotfiles
+
+if [ ! -d "~/.tmux/plugins/tpm" ]; then
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
+if [ ! -d "~/dotfiles" ]; then
+	git clone -b ubuntu_lint https://github.com/raindust/dotfiles ~/dotfiles
+fi
+
 cd ~/dotfiles
 ./apply.sh
 
