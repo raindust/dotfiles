@@ -9,6 +9,7 @@ set -xg GOPROXY https://goproxy.io
 set -xg RUSTUP_HOME $HOME/.rustup
 set -xg RUSTUP_DIST_SERVER https://mirrors.tuna.tsinghua.edu.cn/rustup
 set -xg ALL_PROXY http://localhost:3213
+set -xg HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # PATH
 set -xg PATH $PATH $GOROOT/bin

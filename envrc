@@ -17,6 +17,7 @@ export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
 export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
 export KUBE_EDITOR="vim"
 export ALL_PROXY=http://localhost:3213
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # PATH
 export PATH="$PATH":$GOROOT/bin
