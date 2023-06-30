@@ -14,6 +14,7 @@ set -xg PATH $PATH $GOBIN
 set -xg PATH $PATH $HOME/.cargo/bin
 set -xg PATH $PATH /usr/local/cuda-12.1/bin
 set -xg PATH $PATH $HOME/miniconda3/bin
+set -xg PATH $PATH $HOME/.local/bin
 
 # Other
 set -xg DISABLE_AUTO_TITLE "true"

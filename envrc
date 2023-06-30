@@ -14,3 +14,4 @@ export PATH="$PATH":$GOBIN
 export PATH="$PATH":"$HOME/.cargo/bin"
 export PATH="$PATH":"/usr/local/cuda-12.1/bin"
 export PATH="$PATH":"$HOME/miniconda3/bin"
+export PATH="$PATH":"$HOME/.local/bin"
