@@ -5,7 +5,7 @@ export LANG=en_US.UTF-8
 # enviroment variables
 export GOPATH=$HOME/dev
 export GOBIN=$GOPATH/bin
-export GOPROXY=https://goproxy.io
+export GOPROXY=https://mirrors.aliyun.com/goproxy
 export RUSTUP_HOME=$HOME/.rustup
 
 # PATH

@@ -5,7 +5,7 @@ set -xg LANG en_US.UTF-8
 # enviroment variables
 set -xg GOPATH $HOME/dev
 set -xg GOBIN $GOPATH/bin
-set -xg GOPROXY https://goproxy.io
+set -xg GOPROXY https://mirrors.aliyun.com/goproxy
 set -xg RUSTUP_HOME $HOME/.rustup
 
 # PATH
