@@ -10,3 +10,4 @@ if test -f /usr/local/Caskroom/miniconda/base/bin/conda
 end
 # <<< conda initialize <<<
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
