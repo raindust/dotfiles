@@ -22,3 +22,5 @@ unset __conda_setup
 # <<< conda init <<<
 
 eval "$(starship init bash)"
+
+export PATH="/home/raindust/.local/share/solana/install/active_release/bin:$PATH"

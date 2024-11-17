@@ -10,6 +10,7 @@
 [user]
 	email = realraindust@gmail.com
 	name = Yan Mingzhi
+	signingKey = A24ECB1C6C9685F7
 [core]
 	editor = vim
 	quotepath = false
@@ -21,3 +22,5 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[commit]
+	gpgsign = true
